@@ -1,3 +1,5 @@
+# タブをスペースに置換
+
 import subprocess
 
 def tab2space(fn):
