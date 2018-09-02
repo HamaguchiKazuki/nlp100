@@ -257,3 +257,6 @@ fabric.properties
 
 # json files
 *.json
+
+# dotfiles
+.DS_Store
