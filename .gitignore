@@ -260,3 +260,4 @@ fabric.properties
 
 # dotfiles
 .DS_Store
+*.gz
