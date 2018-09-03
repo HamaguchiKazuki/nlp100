@@ -9,7 +9,7 @@ def get_category_lines(text):
 
 
 if __name__ == '__main__':
-    fname, title = 'jawiki-country.json.gz', 'イギリス'
+    fname, title = 'jawiki-country.json.gz', input('title--> ')
     article = load_article(fname, title)
     for line in get_category_lines(article):
         print(line)
